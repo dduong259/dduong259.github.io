@@ -1,0 +1,128 @@
+﻿<!DOCTYPE html>
+
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        @-webkit-keyframes Font {
+            0% {
+                color: lightcyan;
+            }
+
+            20% {
+                color: lightgoldenrodyellow;
+            }
+
+            40% {
+                color: lightgreen;
+            }
+
+            60% {
+                color: lightpink;
+            }
+
+            80% {
+                color: lightsalmon;
+            }
+
+            100% {
+                color: lightcoral;
+            }
+        }
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            font-family: Verdana;
+            font-size: 300%;
+            -webkit-animation: Font 1s infinite alternate;
+            margin: auto;
+        }
+
+        p {
+            color: white;
+            font-family: Arial;
+            font-size: 100%;
+        }
+
+            p.image {
+                max-width: 100%;
+            }
+
+        <!--
+        In a more practical application, the elements in p.image and div p would go together,
+        but this is just for showing combinator selectors and classes
+        -->
+        div p {
+            height: auto;
+        }
+
+        a:hover {
+            color: hotpink;
+        }
+
+        a {
+            color: lightgreen;
+        }
+
+        #center {
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid white;
+            width: 50%;
+        }
+
+        td {
+            border: 1px solid white;
+            text-align: center;
+            padding: 15px;
+            font-family: Arial;
+            font-size: 200%;
+            width: 50%;
+        }
+
+        @media only print {
+            body {
+                background-color: white;
+            }
+        }   
+
+    </style>
+
+
+    <title>Happy Birthday Mom!</title>
+</head>
+<body>
+    <div id="center">
+        <h1>
+            Happy Birthday Mom!
+        </h1>
+
+        <p class="image">
+            <img src="http://images.clipartpanda.com/birthday-20cake-20clip-20art-birthday_cake_clip_art_13685.jpg" /></img>
+            <br /><br />
+        </p>
+        <p>
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="page3.html"><strong>Back</strong></a>
+                        </td>
+                        <td>
+                            <a href="page2.html"><strong>Forward</strong></a>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </p>
+    </div>
+
+</body>
+</html>

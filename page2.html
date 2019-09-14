@@ -1,0 +1,138 @@
+﻿<!DOCTYPE html>
+
+
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <style>
+        @-webkit-keyframes Font {
+            0% {
+                color: lightcyan;
+            }
+
+            20% {
+                color: lightgoldenrodyellow;
+            }
+
+            40% {
+                color: lightgreen;
+            }
+
+            60% {
+                color: lightpink;
+            }
+
+            80% {
+                color: lightsalmon;
+            }
+
+            100% {
+                color: lightcoral;
+            }
+        }
+
+        body {
+            background-color: black;
+        }
+
+        h1 {
+            font-family: Verdana;
+            font-size: 300%;
+            -webkit-animation: Font 1s infinite alternate;
+            margin: auto;
+        }
+
+        p {
+            color: white;
+            font-family: Arial;
+            font-size: 175%;
+        }
+
+            p.image {
+                max-width: 100%;
+            }
+
+        <!--
+        In a more practical application, the elements in p.image and div p would go together,
+        but this is just for showing combinator selectors and classes
+        -->
+        div p {
+            height: auto;
+        }
+
+        a:hover {
+            color: hotpink;
+        }
+
+        a {
+            color: lightgreen;
+        }
+
+        #center {
+            text-align: center;
+        }
+
+        table {
+            border: 1px solid white;
+            width: 50%;
+        }
+
+        td {
+            border: 1px solid white;
+            text-align: center;
+            padding: 15px;
+            font-family: Arial;
+            font-size: 200%;
+            width: 50%;
+        }
+
+        @media only print {
+            body {
+                background-color: white;
+            }
+        }
+    </style>
+
+
+    <title>Happy Birthday Mom!</title>
+</head>
+<body>
+    <div id="center">
+        <h1>
+            Happy Birthday Mom!
+        </h1>
+        <p>
+            <strong>
+                <br /><br />
+                I am sorry I was not able to come home on Thursday or this weekend. Programmer life has me busy.
+                This is part of an assignment I have to do, but I hope you will like this.
+                <br /><br />
+                I am proud of your part in raising me. I know you did your best to raise me correctly throughout
+                whatever times we went through, and you did in fact raise me correctly. I am grateful that you
+                have helped present me my life. As a Mom, you always worry, and while I may never fully understand
+                what that is like, I am now doing my best to help your concerns. Thank you Mom.
+                <br /><br />
+                If you want to save these pages, click this link to download a .zip file of these 3 pages:
+                <br /><br />
+                <a href="cobweb.cs.uga.edu/~duong/cs4300/birthday.zip" download="birthday.zip" target="_blank">
+                    <img src="http://theonlinerich.com/wp-content/uploads/2017/09/Click-to-Download-1.png" width="187" height="48">
+                </a>
+            </strong>
+            <center>
+                <table>
+                    <tr>
+                        <td>
+                            <a href="page1.html"><strong>Back</strong></a>
+                        </td>
+                        <td>
+                            <a href="page3.html"><strong>Forward</strong></a>
+                        </td>
+                    </tr>
+                </table>
+            </center>
+        </p>
+    </div>
+
+</body>
+</html>
